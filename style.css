@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  /* Header styles */
+  .header {
+    background-color: #1f1f1f;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+
+  .header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .header ul li {
+    cursor: pointer;
+  }
+
+  .header-right-icons {
+    display: flex;
+    gap: 15px;
+  }
+  .header-right-icons, button{
+    padding: 10px;
+    font-size: large;
+    border-color: #fff;
+    border-radius: 3px;
+  }
+
+  /* Banner styles */
+  .banner {
+    height:100%;
+    width:100%;
+    color: white;
+    text-align: center;
+    /* padding: 20px; */
+  }
+
+  /* .banner-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  } */
+
+  .banner-text {
+    font-size: 1.2rem;
+    background-color: #3a3a8a;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* max-width: 700px; */
+    /* margin-top: 10px; */
+  }
+
+  .new-arrivals {
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_6000/cms/images/32f16efd520940f1b163cb907f2a58f4fe051313?_a=BAMCkGfi0");
+    width:100vw;
+    height: 100vh;
+    /* display: flex; 
+    flex-direction: column;
+    align-items: center; */
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .new-arrivals h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  .new-arrivals h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 20px;
+    
+  }
+  .new-arrivals .buttons a{
+    background-color: #fff;
+    color:#1f1f1f
+  }
+
+  .buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  .promo-banner {
+    background: linear-gradient(to bottom, #ff6b00, #ffcc00);
+    color: #fff;
+    text-align: center;
+    padding: 60px 40px;
+    margin-top:2px;
+}
+.promo-banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.promo-banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+ 
+  .collection-preview {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.collection-info {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.collection-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.collection-info p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.collection-info .shop-now,
+.collection-info .style-guide {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.collection-image {
+    flex: 1;
+}
+
+.collection-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.title{
+    width: 100%;
+    margin-top:50px;
+    justify-content: center;
+    text-align: center;
+}
+.title p{
+    color:#9E9E9E;
+}
+.prom-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+    margin-top:20px;
+}
+
+.prom-item {
+    width: 23%;
+    text-align: center;
+    
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+
+.prom-item img {
+    width: 100%;
+    height: auto;
+}
+
+.prom-item h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 0;
+}
+.prom-section .prom-item img{
+    height: 500px;
+    width:300px;
+}
+
+.shop-button {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 10px 0 20px 0;
+    border-radius: 5px;
+}
+.shop{
+    background-image:url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_6000/cms/images/c7e563093ce8968cf56a0dbabc3aed8e6003eec0?_a=BAMAH2fi0');
+  width:100vw;
+  height:100vh;
+  color:#fff;
+  padding: 130px;
+  background-size: contain;
+  background-repeat: no-repeat;
+   
+}
+
+.rocky{
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_6000/cms/images/a2d888ff2d01d208b66a4af9fe8edfde53b1e119?_a=BAMCkGfi0");
+    width:100vw;
+    height:100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.rocky .contx{
+    color:#fff;
+}
+.rocky .contx h2{
+   font-weight: lighter;
+}
+.pro-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+     margin-top:20px;
+}
+.pro-section .pro1-item{
+    background-image: url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1000/cms/images/71ce7729f8f7da8c0cfc20e78b9839d4d8257a84?_a=BAMAH2fi0');
+    width: 20%;
+    text-align: center;
+    justify-content: end;
+    color:#fff;
+   border-radius: 8px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.pro-section .pro2-item{
+    background-image: url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1000/cms/images/c3a9a7cca38afda7c4bbadf678c3afe427b810eb?_a=BAMAGSfi0');
+    width: 20%;
+    text-align: center;
+    color:#fff;
+    border-radius: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pro-section .pro3-item{
+    background-image: url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1280/cms/images/73e7d6229af3b731a2b96be73b85a7542c4e8a0f?_a=BAMCkGfi0');
+    width: 20%;
+    text-align: center;
+    color:#fff;
+    border-radius: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pro-section .pro4-item{
+    background-image: url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1000/cms/images/523938f36eac15a14d2e66cdb263176adf2ab6ac?_a=BAMAGSfi0');
+    width: 20%;
+    text-align: center;
+    color:#fff;
+    border-radius: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.viratsofa{
+    background-image: url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_2560/cms/images/953b99043fc3ec28d0f78a56167e739a51d6afc8?_a=BAMCkGfi0');;
+    height: 100vh;
+    width:100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 60px;
+    color: #fff;
+}
+.shirts{
+    background-size: contain;
+    margin:0px 5px 0px 5px;
+}
+.shirts img{
+    height:auto;
+    width:100vw;
+}
+.couplelast{
+    background-image: url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_6000/cms/images/21e926883273ea2f81973344ac8fdd4174716bd5?_a=BAMCkGfi0');
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.couplelast h2{
+    font-weight: lighter;
+}
+.scrollshoes{
+    display: flex;
+    overflow-y:scroll;
+    margin:10px;
+    padding: 5px;
+}
+.footer{
+    background-color:black;
+    color:#fff;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+}
+.footer li{
+  list-style-type: none;
+}
+.foot{
+    background-color: #000;
+}
+.payment button{
+    background-color: transparent;
+    color:#fff;
+    padding: 10px;
+}
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .header, .promo-banner, .collection-preview, .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .collection-info, .collection-image {
+        width: 100%;
+        max-width: none;
+        text-align: center;
+    }
+
+    .prom-item, .pro-section div {
+        width: 100%;
+        max-width: none;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .promo-banner h1 {
+        font-size: 24px;
+    }
+
+    .promo-banner p, .collection-info h2 {
+        font-size: 16px;
+    }
+
+    .buttons a {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+}
