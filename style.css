@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
 
   body {
     font-family: Arial, sans-serif;
+    scroll-behavior: none;
   }
 
   /* Header styles */
@@ -16,6 +18,10 @@
     justify-content: space-between;
     align-items: center;
     color: white;
+  }
+  .header .side{
+    display: flex;
+    justify-content: space-between;
   }
 
   .header ul {
@@ -31,12 +37,17 @@
   .header-right-icons {
     display: flex;
     gap: 15px;
+    padding: 20px;
+    justify-content: space-between;
   }
   .header-right-icons, button{
     padding: 10px;
     font-size: large;
-    border-color: #fff;
+    border-color: #A1A8AF;
     border-radius: 3px;
+  }
+  .header-right-icons, button:hover{
+    border-color: #fff;
   }
 
   /* Banner styles */
@@ -80,6 +91,8 @@
     color: white;
     background-size: contain;
     background-repeat: no-repeat;
+     padding-top: 100px; 
+     
   }
 
   .new-arrivals h1 {
@@ -116,7 +129,7 @@
     color: #fff;
     text-align: center;
     padding: 60px 40px;
-    margin-top:2px;
+    /* margin-top:2px; */
 }
 .promo-banner h1 {
     font-size: 36px;
@@ -337,24 +350,50 @@
     padding: 5px;
 }
 .footer{
-    background-color:black;
-    color:#fff;
+    background-color:rgba(24, 24, 24);
+    color:#A1A8AF;
     width:100%;
     display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 70px;
 }
+.footer .lists h3{
+    color: #fff;
+}
 .footer li{
   list-style-type: none;
 }
 .foot{
-    background-color: #000;
+    background-color: rgba(24, 24, 24);
 }
 .payment button{
     background-color: transparent;
     color:#fff;
-    padding: 10px;
+    border-color: #A1A8AF;
+    padding:  15px 40px;
+}
+.icons h3{
+    color:#fff;
+}
+.icons, button{
+  background-color: transparent;
+  border-radius: 4px;
+}
+.icons .icon:hover{
+   background-color: #333;
+}
+.payment button:hover{
+    border-color: #fff;
+}
+.foot .para{
+    color:#A1A8AF;
+    
+}
+.low .payment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
